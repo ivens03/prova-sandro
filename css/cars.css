@@ -1,0 +1,67 @@
+.vendaEsquerda {
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    align-items: center; 
+}
+
+.card {
+    width: 15%;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.cardLuide {
+    width: 15%;
+    height: 36vh;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinhe o botão no topo da sua div */
+}
+
+.vendaDireita {
+    display: flex;
+    flex-direction: row-reverse; /* Inverte a direção dos elementos */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 4rem;
+    margin-right: 2rem;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    margin-left: 4.80rem;
+}
+
+button {
+    background-color: #18A6DE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h3 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background: white;
+    color: black;
+    margin-right: 35%;
+    margin-left: 40%;
+    font-size: 40px;
+    border-radius: 40px;
+    margin-top: 4rem;
+}
+
+.textoDireita {
+    margin-right: 14.5rem;
+} 

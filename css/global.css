@@ -1,0 +1,46 @@
+@import url(../css/background.css);
+@import url(../css/header.css);
+@import url(../css/main.css);
+@import url(../css/cars.css);
+@import url(../css/carsBackground.css);
+@import url(../css/SocialMediaFooter.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root { /* Variaveis no CSS */
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+}
+
+body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+/*------------------APAGAR--------------------------------------------------------------------------*/
+
